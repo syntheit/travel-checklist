@@ -1,0 +1,7 @@
+services:
+  app:
+    image: synzeit/travel-checklist:latest-arm64
+    ports:
+      - "4096:3000"
+    environment:
+      - NODE_ENV=production
